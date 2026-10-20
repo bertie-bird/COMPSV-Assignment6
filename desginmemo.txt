@@ -1,0 +1,19 @@
+How did recursive insertion work?
+For this recursive insertion, it starts as the root of the tree and and
+confirmed if the current node was the manager. If true, the new employee would 
+be added to either left or right side. If false, it would keep looking through
+the tree until it found the manager.
+
+What challenges did you face when finding the right spot for a new employee?
+The challenge was more so figuring out the correct coding sequence for everything 
+to work properly. I had to make sure everything was correctly tabbed because that 
+was my biggest challenge with this assignment. I also made a few errors for example, 
+I kept having issues because I accidentally wrote left in the right section instead which 
+caused the tests to not work originally. 
+
+When might trees be preferable to other data structures in real-world systems?
+Tree are preferable to other data structures when information needs to be organized 
+in a way where there is a main source with multiple subtopics with it’s own subtopics. 
+Visually, this type of stored information for my perspective trickles down in what more looks 
+like roots than branches. This could be things like files on a computer and/or information for 
+data analyzers.

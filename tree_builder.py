@@ -8,7 +8,7 @@ class EmployeeNode:
     '''
 
     # Delete this line and implement the class below
-    pass
+    employee_1 = EmployeeNode("Adam")
 
 class TeamTree:
     '''
@@ -22,11 +22,19 @@ class TeamTree:
     '''
     
     # Delete this line and implement the class below
-    pass
+    company_directory = TeamTree()
+
+    manager_name = TeamTree("Ms. Manager")
+
+
 
 # Test your code here
-
-
+print(company_directory.root)
+company_directory.root = EmployeeNode("Ms. Manager") 
+company_directory.insert("Ms. Manager", "Adam", "right")
+company_directory.insert("Ms. Manager", "Shelby", "left")
+print(company_directory.root.right.name) # Employee #1
+print(company_directory.root.left.name) # Employee #2
 
 
 
